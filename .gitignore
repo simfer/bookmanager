@@ -1,0 +1,40 @@
+97482ab1-b97d-48ee-9875-7954cb4be374$4hy2S2jNSR5qwikWtwwzC73k8GYbVVCk-RS4hWdCcZs=
+
+
+
+# CAP bookmanager
+_out
+*.db
+*.sqlite
+connection.properties
+default-*.json
+.cdsrc-private.json
+gen/
+node_modules/
+target/
+dist/
+resources/
+
+# Web IDE, App Studio
+.che/
+.gen/
+
+# MTA
+*_mta_build_tmp
+*.mtar
+mta_archives/
+
+# Other
+.DS_Store
+*.orig
+*.log
+
+*.iml
+*.flattened-pom.xml
+
+# IDEs
+# .vscode
+# .idea
+
+# @cap-js/cds-typer
+@cds-models
