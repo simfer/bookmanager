@@ -85,6 +85,10 @@ resources:
     path: ./xs-security.json
     service: xsuaa
     service-plan: application
+    config:
+      xsappname: bookmanager-${space}
+      tenant-mode: dedicated
+
 - name: bookmanager-db
   type: com.sap.xs.hdi-container
   parameters:

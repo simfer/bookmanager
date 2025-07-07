@@ -1,6 +1,4 @@
 {
-  "xsappname": "bookmanager",
-  "tenant-mode": "dedicated",
   "scopes": [],
   "attributes": [],
   "role-templates": []
