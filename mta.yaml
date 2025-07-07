@@ -130,5 +130,6 @@ build-parameters:
   before-all:
   - builder: custom
     commands:
+    - npm ci
     - bash changeVersion.sh
     - npx cds build --production
